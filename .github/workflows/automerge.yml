@@ -16,7 +16,10 @@ on:
   check_suite:
     types:
       - completed
-  status: {}
+  # trigger when checks complete (manually triggered as final step of CI workflow)
+  repository_dispatch:
+    types: [ checks-complete ]
+#  status: {}
 jobs:
   automerge:
     runs-on: ubuntu-latest
@@ -34,10 +37,11 @@ jobs:
 #      UPDATE_METHOD: "rebase"
 #      PULL_REQUEST: "1234"
     steps:
-      - name: checkout
-        uses: actions/checkout@v2
       - name: automerge
         uses: "pascalgn/automerge-action@v0.14.3"
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # generate a personal access token with `public_repo` scope (write access)
+          event-type: checks-complete
 
 
 
