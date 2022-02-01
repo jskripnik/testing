@@ -1,3 +1,6 @@
 test auto-merge PR!
 second test
 third
+
+
+test for auto-merge!
