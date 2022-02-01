@@ -10,9 +10,6 @@ on:
       - ready_for_review
       - reopened
       - unlocked
-  pull_request_review:
-    types:
-      - submitted
   check_suite:
     types:
       - completed
@@ -25,10 +22,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-      MERGE_LABELS: "automerge,!work in progress"
+      MERGE_LABELS: "automerge"
 #      MERGE_REMOVE_LABELS: ""
 #      MERGE_METHOD: "automerge"
-      MERGE_COMMIT_MESSAGE: "pull-request-description"
+#      MERGE_COMMIT_MESSAGE: "pull-request-description"
       MERGE_FORKS: "true"
       MERGE_RETRIES: "6"
       MERGE_RETRY_SLEEP: "10000"
