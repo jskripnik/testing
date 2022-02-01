@@ -5,8 +5,6 @@ on:
 
 jobs:
   automerging_pool_requests:
-    if: github.actor == 'hopmen'
-    name: test-job
     runs-on: ubuntu-20.04
     steps:
       - name: print
