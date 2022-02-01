@@ -28,7 +28,7 @@ jobs:
       MERGE_LABELS: "automerge,!work in progress"
 #      MERGE_REMOVE_LABELS: ""
 #      MERGE_METHOD: "automerge"
-#      MERGE_COMMIT_MESSAGE: "pull-request-description"
+      MERGE_COMMIT_MESSAGE: "pull-request-description"
       MERGE_FORKS: "true"
       MERGE_RETRIES: "6"
       MERGE_RETRY_SLEEP: "10000"
