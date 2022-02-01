@@ -5,10 +5,11 @@ on:
 
 jobs:
   automerging_pool_requests:
+    if: github.actor == 'jskripnik'
     name: test-job
     runs-on: ubuntu-20.04
     steps:
       - name: print
         shell: bash
         run: |
-          echo ${{ github.actor }}
+          echo 'Hello world! ' ${{ github.actor }}
