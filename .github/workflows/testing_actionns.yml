@@ -1,8 +1,8 @@
 name: workflow-for-testing
 on:
   push:
-    branches:
-      - [ main ]
+    branches: [main]
+
 jobs:
   automerging_pool_requests:
     name: test-job
