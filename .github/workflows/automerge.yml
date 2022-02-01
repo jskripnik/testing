@@ -34,6 +34,8 @@ jobs:
 #      UPDATE_METHOD: "rebase"
 #      PULL_REQUEST: "1234"
     steps:
+      - name: checkout
+        uses: actions/checkout@v2
       - name: automerge
         uses: "pascalgn/automerge-action@v0.14.3"
 
