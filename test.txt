@@ -6,3 +6,4 @@ third
 test for auto-merge!
 
 second test!
+another test!
