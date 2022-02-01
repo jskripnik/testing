@@ -1,7 +1,7 @@
 name: workflow-for-testing
 on:
-  push:
-    branches: [main]
+  pull_request:
+    types: [opened]
 
 jobs:
   automerging_pool_requests:
@@ -13,3 +13,4 @@ jobs:
         shell: bash
         run: |
           echo 'Hello world! ' ${{ github.actor }}
+
