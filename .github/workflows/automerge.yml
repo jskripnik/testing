@@ -21,7 +21,7 @@ jobs:
   automerge:
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: "${{ secrets.TOKEN }}"
+      GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
       MERGE_LABELS: "automerge,!work in progress"
       MERGE_REMOVE_LABELS: ""
       MERGE_METHOD: "automerge"
