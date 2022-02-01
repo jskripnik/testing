@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea64df5f-4c21-4ed5-8dc5-6b99a0df4c16" name="Default Changelist" comment="Merge Main into PR 1011">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/automerge.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/automerge.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ea64df5f-4c21-4ed5-8dc5-6b99a0df4c16" name="Default Changelist" comment="TOKEN">
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643742958473</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="TOKEN">
+      <created>1643743373581</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1643743373581</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +316,8 @@
     <MESSAGE value="Merge Main into PR 100" />
     <MESSAGE value="Merge Main into PR 101" />
     <MESSAGE value="Merge Main into PR 1011" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge Main into PR 1011" />
+    <MESSAGE value="TOKEN" />
+    <option name="LAST_COMMIT_MESSAGE" value="TOKEN" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
